@@ -6,8 +6,16 @@
 }
 
 body {
-    max-width: 980px;
     margin: auto;
+}
+
+.btn-primary{
+    background-color: orangered;
+}
+
+.collapse {
+    margin-left: 150px;
+    font-size: 20px;
 }
 
 header, h1, a {
@@ -60,5 +68,23 @@ header .search {
     margin-top: 50px;
     display: block;
     margin: auto;
+    width:80%;
 }
+
+.car-img{
+    width: 100%;
+    
+}
+#work-2{
+    display: none;
+}
+
+@media (creen and ax-width: :40px){
+    #work-2{
+    display: noneblock}
+}
+    #work{
+        display: none;
+}
+
 
