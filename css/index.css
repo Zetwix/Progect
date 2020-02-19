@@ -10,7 +10,12 @@ body {
 }
 
 .btn-primary{
+    width: 100%;
     background-color: orangered;
+    border-color: orangered;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 .collapse {
@@ -21,6 +26,11 @@ body {
 header, h1, a {
     margin: 0;
     padding: 0;
+}
+
+.card-title{
+    box-sizing: border-box;
+    height: 50px;
 }
 
 header h1, h2 {
@@ -79,12 +89,87 @@ header .search {
     display: none;
 }
 
-@media (creen and ax-width: :40px){
-    #work-2{
-    display: noneblock}
+#work{
+    justify-content: space-around;
 }
+    .work-string{
+    display: flex;
+    width: 100%;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .work-item{
+     width: 18%;
+     margin-top: 35px;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative
+ }
+
+ .work-item img{
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -15px;
+ }
+
+.work-item p{
+    margin-top: 100px;
+       position: absolute;
+ }
+
+.arr {
+
+    margin-right: 50px;
+    margin-top: 125px;
+
+}
+
+@media (max-width: 1000px){
+    #work-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+    .work-item-2{
+    width: 27%;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
     #work{
         display: none;
+    }
+
+    .arr-2 {
+    padding-left: 37px;
+
 }
+}
+.one {
+    text-align:  center;
+    list-style-type: none;
+    margin-bottom: 50px;
+    
+
+}
+ .car-h {
+    margin-top: 80px;
+}
+
+.mar {
+    margin-top: 50px;
+}
+
+.btn-primary:hover{
+   background-color: #010101;
+}
+
+
 
 
