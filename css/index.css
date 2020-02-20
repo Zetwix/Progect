@@ -83,8 +83,8 @@ header .search {
 
 .car-img{
     width: 100%;
-    
 }
+
 #work-2{
     display: none;
 }
@@ -141,7 +141,6 @@ header .search {
     margin-right: auto;
     }
 
-
     #work{
         display: none;
     }
@@ -151,13 +150,13 @@ header .search {
 
 }
 }
+
 .one {
     text-align:  center;
     list-style-type: none;
     margin-bottom: 50px;
-    
-
 }
+
  .car-h {
     margin-top: 80px;
 }
@@ -170,6 +169,37 @@ header .search {
    background-color: #010101;
 }
 
+.row {
+    width: 100%;
+    display: flex;
+}
+.bot {
+    margin-top: 70px;
+    margin-left: 75px;
+}
 
+.bot2 {
+    margin-top: 70px;
+    margin-left: 407px;
+}
 
+.bot3 {
+    margin-top: 70px;
+    margin-left: 192px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: wheat;
+}
+
+footer p {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+footer .par {
+    padding-left: 150px;
+    padding-top: 0px;
+}
 
