@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+
 :root {
     --main-color: #010101;
     font-family: 'Montserrat', sans-serif;
@@ -9,6 +10,9 @@ body {
     margin: auto;
 }
 
+header{
+    width: 100%;
+}
 .btn-primary{
     width: 100%;
     background-color: orangered;
@@ -21,6 +25,12 @@ body {
 .collapse {
     margin-left: 150px;
     font-size: 20px;
+}
+
+.clock {
+    padding-left: 40px;
+    font-size: 22px;
+    margin-right: -30px;
 }
 
 #Clients p {
@@ -62,6 +72,10 @@ header nav .menu a {
     border: 1px solid transparent;
     padding: 5px;
 
+}
+
+.navbar-nav{
+    margin-left: -20px;
 }
 
 header nav .menu a:hover {
@@ -173,9 +187,22 @@ header .search {
    background-color: #010101;
 }
 
+.main-feedback{
+    display: flex;
+    padding-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .row {
     width: 100%;
     display: flex;
+}
+
+.Feedback{
+    width:33%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
 }
 .bot {
     margin-top: 70px;
@@ -183,8 +210,10 @@ header .search {
 }
 
 .bot2 {
+    width:50%;
     margin-top: 70px;
-    margin-left: 407px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bot3 {
@@ -209,6 +238,9 @@ footer .par {
 }
 
 .butt {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   text-decoration: none; 
   user-select: none; 
@@ -221,49 +253,50 @@ footer .par {
 .butt:active { background: rgb(152,15,0); } 
 
 .nan {
-    width: 100%;
+    width: 35%;
     justify-content: flex-end;
-}
+    margin-left: auto;
+    margin-right: auto;
 
-#clock {
-  width: 30vw;
-  height: 30vw;
-  border-radius: 50%;
-  border: 5px double #333;
-  background: -webkit-radial-gradient(#333333, #000000);
-  background: radial-gradient(#333333, #000000);
-  margin: 2rem auto;
-  position: relative;
-}
-
-#hourhand, #minutehand, #secondhand {
-  position: absolute;
-  background: white;
-  -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
-  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-#hourhand {
-  width: 4%;
-  height: 30%;
-  left: calc(50% - (4% / 2));
-  top: calc(50% - 30%);
-}
-
-#minutehand {
-  width: 2%;
-  height: 40%;
-  left: calc(50% - (2% / 2));
-  top: calc(50% - 40%);
-}
-
-#secondhand {
-  width: 1%;
-  height: 45%;
-  background: red;
-  left: calc(50% - (1% / 2));
-  top: calc(50% - 45%);
 }
 
 
+
+
+.form{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-l{
+    margin-left: 150px;
+}
+
+.form-r{
+    margin-left:143px;
+}
+
+.Contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:800px){
+    .Feedback{
+    width:100%;
+}
+
+.main-feedback{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

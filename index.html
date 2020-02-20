@@ -15,11 +15,7 @@
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="машина, линии, буквы">
             </a>
-            <div id="clock">
-                <span id="minutehand"></span>
-                <span id="hourhand"></span>
-                <span id="secondhand"></span>
-            </div>
+            <div class="clock"></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -208,47 +204,54 @@
         </section>
         <section id="Clients">
             <h3 class="bot2">НАШИ КЛИЕНТЫ</h3>
-            <div class="OneFeedback">
-                <p><b>АЛЕКСАНДР, ОДЕССА</b></p>
-                <p>Очень довольны покупками! Автомобили в идеальном техническом состоянии!
-                Огромное спасибо!!!</p>
-            </div>
-            <div class="TwoFeedback">
-                <p><b>ОЛЕГ, КИЕВ</b></p>
-                <p>Службы работали отлично. На мой любой вопрос агенты отвечали и помогали очень быстро.
-                С Вами приятно работать.</p>
-            </div>
-            <div class="ThreeFeedback">
-                <p><b>АНДРЕЙ, ЧЕРНИГОВ</b></p>
-                <p>Очень доволен сотрудничеством с Аукцион Экспорт. Высочайший уровень профессионализма!
-                Особая благодарность агенту Алексу. С удовольствием буду обращаться в дальнейшем.
-            </p>
+            <div class="main-feedback">
+                <div class="OneFeedback Feedback">
+                    <p><b>АЛЕКСАНДР, ОДЕССА</b></p>
+                    <p>Очень довольны покупками! Автомобили в идеальном техническом состоянии!
+                    Огромное спасибо!!!</p>
+                </div>
+                <div class="TwoFeedback Feedback">
+                    <p><b>ОЛЕГ, КИЕВ</b></p>
+                    <p>Службы работали отлично. На мой любой вопрос агенты отвечали и помогали очень быстро.
+                    С Вами приятно работать.</p>
+                </div>
+                <div class="ThreeFeedback Feedback">
+                    <p><b>АНДРЕЙ, ЧЕРНИГОВ</b></p>
+                    <p>Очень доволен сотрудничеством с Аукцион Экспорт. Высочайший уровень профессионализма!
+                    Особая благодарность агенту Алексу. С удовольствием буду обращаться в дальнейшем.
+                </p>
+                </div>
             </div>
             
         </section>
         <section id="Contacts">
             <h3 class="bot3">ОСТАВЬТЕ ВАШИ ДАННЫЕ И МЫ ВАМ ПЕРЕЗВОНИМ</h3>
-            <form>
-                <Label><b>NAME:</b>
-                    <input type="text" required placeholder="Your name">
-                </Label>
-                <br>
-                <br>
-                <Label><b>EMAIL:</b>
-                    <input type="text" required placeholder="Your email">
-                </Label>
-                <br>
-                <br>
-                <Label><b>PHONE NUMBER:</b>
-                    <input type="text" required placeholder="Your number">
-                </Label>
-                <br>
-                <br>
-                <div class="nan">
-                    <input class="butt" type="submit">
-                </div>
+            <div class="form">
+                <form>
+                    <Label><b>NAME:</b>
+                        <input class="form-f form-l" type="text" required placeholder="Your name">
+                    </Label>
+                    <br>
+                    <br>
+                    <Label><b>EMAIL:</b>
+                        <input class="form-f form-l" type="text" required placeholder="Your email">
+                    </Label>
+                    <br>
+                    <br>
+                    <Label><span class="form-b"><b>PHONE:</b></span>
+                        <input class="form-l form-r" type="text" required placeholder="Your number">
+                    </Label>
+                    <br>
+                    <br>
+                    
+                </form>
                 
-            </form>
+                
+            </div>
+                <div class="nan">
+                        <input class="butt" type="submit">
+                </div>
+            
         </section>
     </main>
     <footer>
