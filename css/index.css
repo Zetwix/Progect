@@ -23,6 +23,10 @@ body {
     font-size: 20px;
 }
 
+#Clients p {
+    align-content: stretch;
+}
+
 header, h1, a {
     margin: 0;
     padding: 0;
@@ -186,6 +190,7 @@ header .search {
 .bot3 {
     margin-top: 70px;
     margin-left: 192px;
+    padding-bottom: 75px;
 }
 
 footer {
@@ -202,4 +207,63 @@ footer .par {
     padding-left: 150px;
     padding-top: 0px;
 }
+
+.butt {
+  color: #fff;
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+  margin-bottom: 30px;
+} 
+.butt:hover { background: rgb(232,95,76); } 
+.butt:active { background: rgb(152,15,0); } 
+
+.nan {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#clock {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  border: 5px double #333;
+  background: -webkit-radial-gradient(#333333, #000000);
+  background: radial-gradient(#333333, #000000);
+  margin: 2rem auto;
+  position: relative;
+}
+
+#hourhand, #minutehand, #secondhand {
+  position: absolute;
+  background: white;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#hourhand {
+  width: 4%;
+  height: 30%;
+  left: calc(50% - (4% / 2));
+  top: calc(50% - 30%);
+}
+
+#minutehand {
+  width: 2%;
+  height: 40%;
+  left: calc(50% - (2% / 2));
+  top: calc(50% - 40%);
+}
+
+#secondhand {
+  width: 1%;
+  height: 45%;
+  background: red;
+  left: calc(50% - (1% / 2));
+  top: calc(50% - 45%);
+}
+
 
