@@ -360,3 +360,9 @@ footer .par {
     background-color:#FEFACB; 
     cursor:pointer; 
 }
+.calckk .mortal {
+    position: sticky;
+    bottom: 0px;
+    right: 210px;
+    min-height: 2em;
+}

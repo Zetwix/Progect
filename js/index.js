@@ -7,10 +7,10 @@ document.onkeydown = function checkKeycode(event)
 {
 var keycode;
 if(!event) var event = window.event;
-if (event.keyCode) keycode = event.keyCode; // IE
-else if(event.which) keycode = event.which; // all browsers
+if (event.keyCode) keycode = event.keyCode; 
+else if(event.which) keycode = event.which; 
 
-	switch(keycode){ // проверка нажатых клавиш
+	switch(keycode){ 
 		case 13: ravno(); break;
 		case 46: clear1(); break;
 		case 111: semn('/'); break;
@@ -34,20 +34,20 @@ var b = 0;
 var k = '';
 var znak = false; 
 
-function clear1() { // функция обнуления значений калькулятора
+function clear1() { 
 	document.getElementById("window_calc").innerHTML = 0;
 	b = 0; 
 	k = '';
 	znak = false;
 }
 
-function semn(semn) {// функция обработки операции
+function semn(semn) {
 	k = semn;
 	znak = false;
 	b = parseInt(window_calc.innerHTML);
 }
 
-function ravno() {// функция вывода результата
+function ravno() {
 
 if(k!=''){		
 	switch(k){
@@ -61,7 +61,7 @@ if(k!=''){
 }
 }
 
-function clic(number) {// функция запоминания веденых значений
+function clic(number) {
 	
 	var window_calc = document.getElementById("window_calc");
 
