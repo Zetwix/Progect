@@ -13,6 +13,7 @@ body {
 header{
     width: 100%;
 }
+
 .btn-primary{
     width: 100%;
     background-color: orangered;
@@ -193,6 +194,7 @@ header .search {
     margin-right: auto;
     margin-left: auto;
 }
+
 .row {
     width: 100%;
     display: flex;
@@ -204,6 +206,7 @@ header .search {
     margin-left: auto;
     padding-left: 15px;
 }
+
 .bot {
     margin-top: 70px;
     margin-left: 75px;
@@ -232,6 +235,7 @@ footer p {
     padding-left: 100px;
     padding-top: 20px;
 }
+
 footer .par {
     padding-left: 150px;
     padding-top: 0px;
@@ -259,9 +263,6 @@ footer .par {
     margin-right: auto;
 
 }
-
-
-
 
 .form{
     display: flex;
@@ -299,4 +300,63 @@ footer .par {
     margin-left: auto;
     margin-right: auto;
 }
+}
+@media (max-width: 685px){
+    .par{
+        display: none;
+    }
+}
+
+.marh{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 20px;
+}
+
+@media(max-width: 996px){
+    .marh{
+        width: 100%;
+    }
+}
+
+#calc_body{
+    width:245px;
+    margin-left:85%; 
+    height:285px; 
+    background-color:#BACFFC; 
+    border: 1px #000 solid; 
+    border-radius:5px;
+}
+
+#window_calc{
+    width:230px; 
+    height:25px; 
+    margin-top:10px; 
+    margin-left:6px; 
+    margin-bottom:10px; 
+    line-height:25px; 
+    text-align: right; 
+    font-size:20px; 
+    background-color:#FFF; 
+    border: 1px #000 solid; 
+    border-radius:5px;
+}
+
+.buttons_calc{
+    width:50px; 
+    height:50px;
+    margin-top:5px; 
+    margin-left:5px; 
+    line-height:50px; 
+    text-align:center; 
+    background-color:#FFF; 
+    border: 1px #000 solid; 
+    border-radius:5px; 
+    display:inline-block;
+}
+
+.buttons_calc:hover{ 
+    background-color:#FEFACB; 
+    cursor:pointer; 
 }
